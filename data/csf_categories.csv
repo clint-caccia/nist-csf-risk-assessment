@@ -1,0 +1,23 @@
+function_id,function_name,category_id,category_name
+GV,Govern,GV.OC,Organizational Context
+GV,Govern,GV.RM,Risk Management Strategy
+GV,Govern,GV.RR,"Roles, Responsibilities, and Authorities"
+GV,Govern,GV.PO,Policy
+GV,Govern,GV.OV,Oversight
+GV,Govern,GV.SC,Cybersecurity Supply Chain Risk Management
+ID,Identify,ID.AM,Asset Management
+ID,Identify,ID.RA,Risk Assessment
+ID,Identify,ID.IM,Improvement
+PR,Protect,PR.AA,"Identity Management, Authentication, and Access Control"
+PR,Protect,PR.AT,Awareness and Training
+PR,Protect,PR.DS,Data Security
+PR,Protect,PR.PS,Platform Security
+PR,Protect,PR.IR,Technology Infrastructure Resilience
+DE,Detect,DE.CM,Continuous Monitoring
+DE,Detect,DE.AE,Adverse Event Analysis
+RS,Respond,RS.MA,Incident Management
+RS,Respond,RS.AN,Incident Analysis
+RS,Respond,RS.CO,Incident Response Reporting and Communication
+RS,Respond,RS.MI,Incident Mitigation
+RC,Recover,RC.RP,Incident Recovery Plan Execution
+RC,Recover,RC.CO,Incident Recovery Communication

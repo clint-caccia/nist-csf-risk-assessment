@@ -112,9 +112,12 @@ python -m pytest -v
 
 The tests check the framework data (6 functions, 22 categories), risk scoring cutoffs, function averages, the gap ranking, the heat map, and that bad input gets rejected. GitHub Actions runs them on every push.
 
-## Related project
+## Related projects
 
-The Detect function scored 0 in this assessment. My [auth-log-analyzer](https://github.com/clint-caccia/auth-log-analyzer) is a small example of a DE.CM / DE.AE control: it reads Linux login logs and flags brute force and suspicious logins.
+The Detect function scored 0 in this assessment, and email account takeover (R02) is one of the top risks. Two of my other projects are small examples of controls that would help:
+
+- [auth-log-analyzer](https://github.com/clint-caccia/auth-log-analyzer): a DE.CM / DE.AE control that reads Linux login logs and flags brute force and suspicious logins.
+- [phishing-email-analyzer](https://github.com/clint-caccia/phishing-email-analyzer): scores reported emails for phishing red flags and pulls out IOCs, which supports PR.AT awareness and DE.AE triage.
 
 ## Limitations
 
